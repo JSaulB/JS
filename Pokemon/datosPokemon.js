@@ -30,3 +30,4 @@ const pintarPokemon = (data, id) =>
     item.getElementsByTagName("p")[0].innerHTML = data.name;
     console.log(data.name);
 }
+
